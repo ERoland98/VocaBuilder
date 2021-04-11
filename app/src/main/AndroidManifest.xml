@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.bme.aut.android.vocabuilder"
+    android:versionName="1.0.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Vocabuilder"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".info.InfoActivity"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".dictionary.Load"
+            android:label="Vocabuilder - Dictionary List"
+            android:theme="@style/AppTheme_actionBar" />
+
+        <activity android:name=".result.ResultInfoActivity"
+            android:label="Vocabuilder - Results"
+            android:theme="@style/AppTheme_actionBar" />
+
+        <activity android:name=".dictionary.Add"
+            android:label="Vocabuilder - Add"
+            android:theme="@style/AppTheme_actionBar" />
+
+        <activity android:name=".quiz.QuizCreatorActivity"
+            android:theme="@style/AppTheme_actionBar_Material" />
+
+        <activity android:name=".quiz.QuestionsActivity"
+            android:label="Vocabuilder - Question"
+            android:theme="@style/AppTheme_actionBar" />
+
+        <activity android:name=".quiz.ResultActivity"
+            android:label="Vocabuilder - Result"
+            android:theme="@style/AppTheme_actionBar" />
+    </application>
+</manifest>

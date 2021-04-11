@@ -1,0 +1,34 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#2E2E2E</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="color">#B4B4B4</item>
+    </style>
+
+    <style name="AppTheme_actionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2E2E2E</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="color">#B4B4B4</item>
+    </style>
+
+    <style name="AppTheme_actionBar_Material" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#2E2E2E</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="color">#B4B4B4</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">#2E2E2E</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="color">#B4B4B4</item>
+    </style>
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorPrimary">#2E2E2E</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="color">#B4B4B4</item>
+        <item name="colorAccent">#B4B4B4</item>
+    </style>
+
+</resources>

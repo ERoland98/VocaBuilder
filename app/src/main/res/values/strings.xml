@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adding_a_new_entry_in_to_your_dictionary">Adding a new entry in to your dictionary</string>
+    <string name="type_here_the_proper_word">Type in the word</string>
+    <string name="submit">Submit</string>
+    <string name="modifying_dictionary_entry">Modifying dictionary entry</string>
+    <string name="update">Update</string>
+    <string name="info">INFO</string>
+    <string name="zero">0</string>
+    <string name="type_in_the_correct_translation_of_the_word">Type in the correct translation of the word.</string>
+    <string name="result">Result</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="finish">FINISH</string>
+    <string name="home">HOME</string>
+    <string name="results">RESULTS</string>
+    <string name="add">ADD</string>
+    <string name="load">LOAD</string>
+    <string name="quiz">QUIZ</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_enter_your_name">Please enter your name.</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="delete">Delete</string>
+</resources>
